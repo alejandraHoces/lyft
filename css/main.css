@@ -1,3 +1,108 @@
-/*
- * Estilos de tu proyecto
- */
+/*estilos generales*/
+*{
+  margin:0;
+  padding: 0;
+  font-family:'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+/*colocando ancho de encabezado y color de fondo*/
+header {
+  width: 100%;
+  background-color: #240c39;
+  position: fixed;
+  z-index: 1000;
+}
+/*colocando posicion de logo y tamaño*/
+.icono-lyft img {
+  width: 80px;
+  position: relative;
+  left: 70px;
+  top: 18px;
+}
+/*colocando en linea mis links*/
+.head-lyft ul li {
+  display: inline-block;
+}
+/*colocando estilos a mis link*/
+.navigation-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 30px;
+  position: relative;
+  left: 780px;
+  bottom: 30px;
+}
+/*colocando efecto hover */
+.navigation-links a:hover {
+  color:#ff0088;
+
+}
+/*colocando bordes a mi link de navegacion*/
+.log-in {
+  border:1px solid white;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+/*primera seccion "sing up" registro*/
+#sing-up {
+  height: 554px;
+  background-image:url(../assets/images/hero.gif);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.white-box {
+  background-color: white;
+  width: 70%;
+  position: relative;
+  top: 100px;
+  left: 740px;
+  padding-top: 70px;
+  padding-left: 50px;
+  padding-bottom: 156px;
+}
+
+.white-box h1 {
+  font-size: 40px;
+  color: #352384;
+}
+
+.white-box span {
+  color: #352384;
+}
+
+.form-sing input {
+  border:none;
+  outline: 0;
+  font-size: 20px;
+  border-bottom: 1px solid #352384;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.shipping-button {
+  color: white;
+  background-color: #ff00bf;
+  border: 1px solid #ff00bf;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.record-button {
+  padding-left: 10px;
+}
+
+.paragraph {
+  padding-top: 15px;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.lila {
+  text-decoration: none;
+  color:#ff00bf;
+}
