@@ -8,7 +8,7 @@ En el siguente proyecto se replica la web Start Bootstrap,utilizando la tecnica 
 * Tipografīa utilizada Montserrat .  
 * El sitio esta estructurado con 5 secciones:  
 
-  **Header** : En el Header se encuentra el Menú Principal (Navegador). 
+  **Header** : En el Header se encuentra el Menú Principal (Navegador).
 
   **Primera Sección** :En la primera seccion se encuentra un gif de imagen de fondo y un cuadro de registro.
 
@@ -25,7 +25,7 @@ Se utilizó:
   - HTML  
 
 ## Producto Final
-![Website Lyft](docs/fullpage.png)
+![Website Lyft](https://alejandrahoces.github.io/lyft/)
 ## Colaboradoras  
 Alejandra Hoces.
 Romina Herrera.
