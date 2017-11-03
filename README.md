@@ -25,7 +25,7 @@ Se utilizó:
   - HTML  
 
 ## Producto Final
-![Website Lyft](https://alejandrahoces.github.io/lyft/)
+[Website Lyft](https://alejandrahoces.github.io/lyft/).
 ## Colaboradoras  
-Alejandra Hoces.
+Alejandra Hoces.  
 Romina Herrera.
