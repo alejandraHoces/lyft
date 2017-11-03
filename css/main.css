@@ -1,108 +1,284 @@
-/*estilos generales*/
-*{
-  margin:0;
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
   padding: 0;
-  font-family:'Montserrat', sans-serif;
-  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
 }
-/*colocando ancho de encabezado y color de fondo*/
-header {
+/*Clases Reutilizabes*/
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.whatch {
+  color: black;
+  text-align: left;
+  font-size: 0.8rem;
+  padding-bottom: 0px;
+  font-weight: bold;
+}
+.watch p{
+    margin-bottom: 0px;
+  }
+.paragraph{
+    color: black;
+    text-align: left;
+    font-size: 0.8rem;
+  line-height: 20px;
+  }
+.box-textleft{
+  width: 20%;
+  position: absolute;
+  margin-left: 4rem;
+}
+  .container{
+    position: relative;
+    height: 480px;
+  }
+  .box-videorigth {
+    position: absolute;
+    right: 0px;
+  }
+/*Clases Especificas*/
+
+header{
+  position: absolute;
+  z-index: 2;
   width: 100%;
-  background-color: #240c39;
-  position: fixed;
-  z-index: 1000;
 }
-/*colocando posicion de logo y tamaño*/
-.icono-lyft img {
-  width: 80px;
+header a {
+  padding: 8px;
+}
+a.login {
+    border: 0.6px solid white;
+        border-radius: 8px
+}
+header a:hover{
+  color: #ff00bf;
+  text-decoration: none;
+}
+header ul li {
+  display: inline;
+  margin: 5px;
+  list-style: none;
+  padding-left: 1.5rem;
+  padding-top: 7px;
+}
+.logo-header {
+  width: 63px;
+  height: 44px;
+}
+.box-header {
   position: relative;
-  left: 70px;
-  top: 18px;
+
+  top: 27px;
+  left: 30px;
+  font-weight: lighter;
 }
-/*colocando en linea mis links*/
-.head-lyft ul li {
+.box-nav{
+  position: relative;
+  top:-34px;
+  left: 723px;
+  font-size: 1.125rem;
+  width: 500px;
+}
+.logo-square {
+  width: 100px;
+}
+.part1{
+  position: relative;
+  background-image: url('../assets/images/hero.gif');
+  background-size: 100% 100%;
+  height: 533px;
+  width: 100%;
+}
+.box_lyft{
+  padding:2rem 4rem;
+  position: absolute;
+  right: 0;
+  top:113px;
+  left: 791px;
+  bottom: 0;
+  background-color: white;
+}
+.text-xsmall {
+  font-size: .6rem;
+}
+.text-xsmall p{
+  color: #728099;
+
+}
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  color: #352384;
+  font-weight: bold;
+}
+.part1 h3{
+  font-weight: lighter;
+  color: #392786;
+}
+#phone{
+  border: 0;
+  outline: none;
+}
+.box_lyft .line{
+  border: 0.7px solid #352384;
+  width: 450px;
+
+}
+.btn-pink {
+  background-color:#ff00bf;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: inherit;
+  padding: 10px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: .75rem 1.25rem;
+  font-size: 1rem;
+}
+.text-xsmall a{
+  color: #ff00bf;
+  text-decoration: none;
+}
+.box_lyft a:hover{
+  color: purple;
+  text-decoration: underline;
+}
+.btn-link{
+  text-decoration:underline;
+  color: #728099;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.logo-header {
+  width: 63px;
+  height: 44px;
+}
+/*Seccion2*/
+.part2{
+  width: 100%;
+  background:linear-gradient(#76278F, #2B1E66);
+  height: 640px;
+  position: relative;
+}
+.texto{
+  color: white;
+  position: absolute;
+  left: 7.5rem;
+  top:64px;
+  width: 539px;
+  padding:0 2.3rem;
+}
+.texto h3{
+  font-size: 1.75rem;
+  font-family: inherit;
+}
+br{
+  line-height: 40px;
+}
+.content-part2 h3{
+  font-size: 22px;
+  font-weight: lighter;
+}
+.image{
+  position: absolute;
+  top: 64px;
+  left: 732px;
+  width: 565px;
+}
+
+/*section three usa clases reutilizables */
+/*.container,.box-textleft,.watch,.paragraph,.box-videorigth*/
+/*section four */
+/*Section 4 utiliza clases reutilizables .container,.box-textleft,.watch,.paragraph,.box-videorigth*/
+div.box4 {
+  position: absolute;
+  width: 20%;
+  line-height: 1.5rem;
+  margin-right: 5rem;
+  right: 0px;
+ }
+.conteiner4 {
+  position: absolute;
+  left: 0px;
+  margin-left:4rem;
+}
+/*section five usa clases reutilizables*/
+/*.container,.box-textleft,.watch,.paragraph,.box-videorigth*/
+/* Aplicando estilo en footer*/
+
+footer {
+  background:  #333447;
+  height: 30rem;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  line-height: 2rem;
+}
+img {
+  text-decoration: none;
+}
+.box {
   display: inline-block;
 }
-/*colocando estilos a mis link*/
-.navigation-links a {
+.conteiner1 {
+display: inline-block;
+margin: 5rem;
+margin-top: 2rem;
+
+}
+.conteiner2 {
+  display: inline-block;
+  margin-left: 8rem;
+  margin-top: 2rem;
+
+}
+
+a {
+  list-style: none;
   text-decoration: none;
   color: white;
-  font-size: 20px;
-  padding-left: 30px;
-  position: relative;
-  left: 780px;
-  bottom: 30px;
 }
-/*colocando efecto hover */
-.navigation-links a:hover {
-  color:#ff0088;
-
-}
-/*colocando bordes a mi link de navegacion*/
-.log-in {
-  border:1px solid white;
-  border-radius: 6px;
-  padding: 10px;
-}
-
-/*primera seccion "sing up" registro*/
-#sing-up {
-  height: 554px;
-  background-image:url(../assets/images/hero.gif);
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.white-box {
-  background-color: white;
-  width: 70%;
-  position: relative;
-  top: 100px;
-  left: 740px;
-  padding-top: 70px;
-  padding-left: 50px;
-  padding-bottom: 156px;
-}
-
-.white-box h1 {
-  font-size: 40px;
-  color: #352384;
-}
-
-.white-box span {
-  color: #352384;
-}
-
-.form-sing input {
-  border:none;
-  outline: 0;
-  font-size: 20px;
-  border-bottom: 1px solid #352384;
-  padding-top: 10px;
-  margin-top: 20px;
-}
-
-.shipping-button {
+a.first:first-child:hover {
   color: white;
-  background-color: #ff00bf;
-  border: 1px solid #ff00bf;
-  border-radius: 5px;
-  padding: 10px;
-  margin-top: 30px;
+}
+a.first:first-child {
+  font-size: 1.3rem;
+}
+a:hover {
+  color: #76278F;
+  text-decoration: underline;
 }
 
-.record-button {
-  padding-left: 10px;
+.pie {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 80%;
+  margin-left: 7rem;
+  text-align: center;
+}
+.icono {
+  display: inline-block;
+  margin-left: 3rem;
+  border-radius: 100%;
+  height: 2.5rem;
+  width: 3rem;
+  padding-top: 0.5rem;
+  border: 2px solid white;
+  color: white;
 }
 
-.paragraph {
-  padding-top: 15px;
-  font-size: 10px;
-  line-height: 20px;
+hr {
+  width: 50%;
 }
-
-.lila {
-  text-decoration: none;
-  color:#ff00bf;
+.end{
+  text-align: center;
+  color: white;
 }
