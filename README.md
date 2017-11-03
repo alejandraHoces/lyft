@@ -8,7 +8,7 @@ En el siguente proyecto se replica la web Start Bootstrap,utilizando la tecnica 
 * Tipografīa utilizada Montserrat .  
 * El sitio esta estructurado con 5 secciones:  
 
-  **Header** : En el Header se encuentra el Menú Principal (Navegador). Se utiliza position:fixed para que el menú quede fijo y z-index:1000 para siempre quede en la capa superior.
+  **Header** : En el Header se encuentra el Menú Principal (Navegador). 
 
   **Primera Sección** :En la primera seccion se encuentra un gif de imagen de fondo y un cuadro de registro.
 
