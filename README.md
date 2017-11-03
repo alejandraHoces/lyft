@@ -20,7 +20,7 @@ En el siguente proyecto se replica la web Start Bootstrap,utilizando la tecnica 
 
 * Fueron utilizados los iconos de Icomoon.  
 ### Herramientas
-Se utilzó:  
+Se utilizó:  
   - CSS  
   - HTML  
 
